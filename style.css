@@ -1,5 +1,5 @@
 [class^="container"],[class^="col"]{
-  background-color: rgba(255, 0, 0, 0.3);
+   background-color: rgba(255, 0, 0, 0.3);
   border: 1px solid black;
   /* min-height: 80px; */
   /* heigth di debug */
@@ -10,18 +10,37 @@
   border: 1px solid black;
 
 }
+
 header{
   height: 90px;
+  
   /* sempre di debug altezza  */
 }
 section{
-  padding: 60px 0;
+  /* padding: 60px 0; */
 }
+li a{
+  text-decoration: none;
+  list-style: none;
+}
+/* jumbotron */
+img{
+  max-width: 100%;
+}
+.ls_img{
+  height: 250px;
+  width: 230px;
+}
+.ls_title{
+  height: 30px;
+  width: 330px;
+}
+/* jumbotron */
 .la_card{
   min-height: 60px;
 }
 .ls_container{
-  height:150px;  
+    
   width: 80%;
   margin: 0 auto;
 }
@@ -33,7 +52,7 @@ ul li{
   border: 1px solid black;
 }
 .contact-me .form{
-  min-height: 400px;
+  min-height: 200px;
 }
 .portfolio .la_card{
   min-height: 300px;
