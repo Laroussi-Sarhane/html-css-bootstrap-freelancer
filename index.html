@@ -7,25 +7,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="style.css">
   <title>freelence bootstrap</title>
 </head>
 <body>
 
-  <header class="container-fluid ">
+  <header class="container-fluid my_header_color ">
 
-    <div class="container ">
+    <div class="container h-100  ">
 
       <div class="row h-100 align-items-center ">
 
-        <div class="col-10 col-md-7 align-content-center justify-content-start  d-flex ">
+        <div class="col-10 col-md-7   justify-content-start   d-flex ">
           <div class="text-white "> STARTER BOOLEANER</div>
         </div>
         <div class="col-2 col-md-5 ">
           <nav class="menu d-flex    d-none d-md-block d-xl-block ">
-             <ul class="d-flex justify-content-center align-items-center justify-content-between text-white ">
+             <ul class="d-flex justify-content-center align-items-center justify-content-around text-uppercase  ">
                <li><a href="">portfolio </a></li>
                <li><a href="">about </a></li>
                <li><a href=""> contact</a></li>
@@ -33,8 +34,14 @@
               </ul>
          </nav>
 
-          <div class="hamburger h-100  d-flex d-md-none d-xl-none">
-            <i class="fa-solid fa-bars"></i>
+          <div class="hamburger menu-hamb h-100  d-flex d-md-none d-xl-none">
+            <nav>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
 
@@ -47,20 +54,22 @@
   <main>
     <!-- -jumbotron -->
 
-    <section class="jumbotron">
+    <section class="jumbotron my_jumbo_color">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 py-5 d-flex justify-content-center  text-center h-50  ">
-            <img src="img/avatar.svg" alt="">
+          <div class="col-12  py-5 d-flex justify-content-center  text-center  style=">
+            <img src="img/avatar.svg" class="my_img_cont" alt="">
           </div>
 
-          <div class="col-12 d-flex justify-content-center  text-center text-white fw-bold ">START BOOTSTRAP
+          <div class="col-12  text-center text-white fw-bold  my_small_container align-items-center display-2 h-100    ">START BOOTSTRAP
 
           </div>
-          <div class="col-12 w-100  d-flex justify-content-center text-center ">
-            star
+          <div class="col-12 w-100  d-flex justify-content-center text-center my_small_container align-items-center text-white  ">
+            <span class="continuous-line"></span>
+            <i class="fa-solid fa-star"></i>
+            <span class="continuous-line"></span>
           </div>
-          <div class="col-12 text-center d-flex justify-content-center align-items-center ls-title w-100 text-white fw-bold py-3 ">
+          <div class="col-12 h-100  text-center d-flex justify-content-center align-items-center ls-title fw-medium     text-white  py-3   ">
             <p>GRAPHIC ARTIST</p>
             <p>-WEB DESIGNER-</p>
             <p>ILLUSTRATOR</p>
@@ -75,47 +84,53 @@
    <section class="portfolio">
     <div class="container  ">
       <div class="row text-center ">
-        <div class="col-12 debug py-3 ">
+        <div class="col-12  py-3 ">
           <h2>PORTFOLIO</h2>
-          <div class="py-3 mb-3  ">STAR</div>
+          <div class=" mb-3 my_small_container
+          w-100  d-flex justify-content-center text-center my_small_container align-items-center">
+
+            <span class="continuous-line"></span>
+            <i class="fa-solid fa-star"></i>
+            <span class="continuous-line"></span>
+          </div>
 
         </div>
 
       </div>
       <!-- cards -->
       <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex text-center mb-3  ">
-        <div class="col debug p-2  ">
+        <div class="col p-2  ">
 
           <div class="la_card mb-3 ">
             <img src="img/cabin.png" class="rounded-3" alt="">
           </div>
         </div>
 
-        <div class="col debug p-2  ">
+        <div class="col  p-2  ">
           <div class="la_card mb-3  ">
             <img src="img/cake.png" class="rounded-3" alt="">
           </div>
         </div>
 
-        <div class="col debug p-2  ">
+        <div class="col  p-2  ">
           <div class="la_card mb-3">
             <img src="img/circus.png" class="rounded-3" alt="">
           </div>
         </div>
 
-        <div class="col debug p-2 ">
+        <div class="col  p-2 ">
           <div class="la_card mb-3">
             <img src="img/game.png" class="rounded-3" alt="">
           </div>
         </div>
 
-        <div class="col debug p-2 ">
+        <div class="col  p-2 ">
           <div class="la_card mb-3">
             <img src="img/safe.png" class="rounded-3" alt="">
           </div>
         </div>
 
-        <div class="col debug p-2 ">
+        <div class="col  p-2 ">
           <div class="la_card mb-3  ">
             <img src="img/submarine.png" class="rounded-3 " alt="">
           </div>
@@ -126,12 +141,18 @@
     <!-- cards -->
    </section>
     <!-- about me -->
-   <section class="about">
-    <div class="container mb-3 debug py-3 ">
+   <section class="about my_about_color">
+    <div class="container mb-3  py-3 ">
       <div class="row text-center text-white fw-bold ">
         <div class="col-12 ">
           <h2 class="p-3 ">ABOUT</h2>
-          <div class="debug p-3 mb-3  ">STAR</div>
+          <div class=" p-3 mb-3 my_small_container
+          w-100  d-flex justify-content-center text-center my_small_container align-items-center ">
+
+            <span class="continuous-line "></span>
+            <i class="fa-solid fa-star"></i>
+            <span class="continuous-line "></span>
+          </div>
 
         </div>
       </div>
@@ -139,20 +160,20 @@
       <div class="ls_container">
         <div class="container-fluid  ">
 
-          <div class="row row-cols-1 row-cols-md-2 text-white fw-bold text-center mb-3 ">
+          <div class="row row-cols-1 row-cols-md-2 text-white text-center mb-3 ">
 
-            <div class="col debug p-2 py-3  ">
+            <div class="col  p-2 py-3  ">
              <p>Freelance is a free bootstrap theme created by start bootstrap. The dowload includes the compleat source files iclounding HTML, CSS and javascript as well as optional LESS stylesheets for easy customisization</p>
             </div>
 
-            <div class="col debug mb-3  p-2 py-3">
+            <div class="col  mb-3  p-2 py-3">
               <p>Freelance is a free bootstrap theme created by start bootstrap. The dowload includes the compleat source files iclounding HTML, CSS and javascript as well as optional LESS stylesheets for easy customisization</p>
             </div>
           </div>
         </div>
       </div>
 
-        <div class="div text-center d-flex justify-content-center  mb-3 p-2 py-3 btn">
+        <div class="div text-center d-flex justify-content-center text-white  mb-3 p-2 py-3 btn">
           <button type="button" class="btn btn-outline-success"><span><i class="fa-solid fa-download"></i></span>dowload</button>
         </div>
     </div>
@@ -163,16 +184,21 @@
     <div class="container">
 
       <div class="row text-center ">
-        <div class="col-12 debug text-white fw-bold p-2 py-3 ">
+        <div class="col-12  text-black  fw-bold p-2 py-3 ">
   
           <h2>CONTACT ME</h2>
-          <div class="div">star</div>
+          <div class="div p-3 mb-3 my_small_container
+          w-100  d-flex justify-content-center text-center my_small_container align-items-center">
+            <span class="continuous-line "></span>
+            <i class="fa-solid fa-star"></i>
+            <span class="continuous-line "></span>
+          </div>
 
         </div>
       </div>
     </div>
     <div class="ls_container">
-      <div class="row debug">
+      <div class="row ">
         <div class="col-12">
 
           <form action="#" class="my_form">
@@ -199,15 +225,41 @@
    </section>
 <section>
    <footer>
-    <div class="footer-top mt-3  py-5">
+    <div class="footer-top mt-3 my_header_color py-5">
       <div class="container">
         <div class="row row-cols-1 row-cols-xl-3 ">
 
-          <div class="col debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fugit ducimus ratione expe.</div>
+          <div class="col text-center text-white ">
+            <p>LOCATION <br>
+            2215 john mcler daniel,MO <br>
+          54232</p>
+          
+          </div>
 
-          <div class="col debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quas reprehenderit adipisci nobis rerum</div>
+          <div class="coltext-center text-white text-center   ">
+            <p>AROUND THE WEB <br>
+            <div class="d-flex  justify-content-center ">
+              <span class="social-icon-container">
+                <i class="fa-brands fa-facebook"></i>
+              </span>
+              <span class="social-icon-container">
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+              <span class="social-icon-container">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </span>
+              <span class="social-icon-container">
+                <i class="fa-brands fa-linkedin"></i>
+              </span>
+            </div></p>
+          </div>
 
-          <div class="col debug">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ex exped</div>
+          <div class="col text-white text-center ">
+            <p>ABOUT FREELENCE <br>
+            freelence is free to use ,open source bootstrap theme created by <a href="#">
+              starter boolean
+            </a></p>
+          </div>
 
 
         </div>
@@ -215,9 +267,9 @@
 
     </div>
 
-    <div class="footer-bottom text-center mt-3  py-3">
+    <div class="footer-bottom text-center  my_header_color text-white  py-3">
 
-       <p>copyright boolena</p>
+       <p>copyright <span><i class="fa-regular fa-copyright"></i>your website 2019</span></p>
     </div>
 
    </footer>
