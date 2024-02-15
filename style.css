@@ -1,30 +1,62 @@
-[class^="container"],[class^="col"]{
-   background-color: rgba(255, 0, 0, 0.3);
-  border: 1px solid black;
-  /* min-height: 80px; */
-  /* heigth di debug */
-  
-}
+
 body {
   font-family: 'Helvetica Neue', sans-serif;
 }
 .debug{
   background-color: rgba(255, 0, 0, 0.3);
   border: 1px solid black;
-
+}
+.my_header_color{
+  background-color: #2b3d4f;
+}
+a{
+  color: #137964;
+  text-decoration: none;
+}
+.my_jumbo_color{
+  background-color: #1abc9c;
+}
+.my_about_color{
+  background-color: #1abc9c;
+}
+.my_img_cont{
+  height: 250px;
+  width: 250px;
+}
+.social-icon-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+.menu-hamb{
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.my_small_container{
+  height: 60px;
+}
+.continuous-line{
+  border-bottom: 3px solid #000; 
+  width: 10%; 
+  margin: 0;
+  padding: 0;
 }
 
 header{
   height: 90px;
-  
-  /* sempre di debug altezza  */
 }
-section{
-  /* padding: 60px 0; */
-}
+
 li a{
   text-decoration: none;
   list-style: none;
+  color: white;
+  font-weight: 300;
 }
 /* jumbotron */
 img{
